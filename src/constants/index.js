@@ -2,6 +2,10 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/p1.jpg";
+import project6 from "../assets/projects/p2.jpg";
+import project7 from "../assets/projects/p4.jpg";
+import project8 from "../assets/projects/p5.jpg";
 
 export const HERO_CONTENT = `I am an AWS and Oracle Certified Cloud Solution Architect Associate with a knack for crafting sophisticated solutions of exceptional quality. I have honed my skills with technologies such as AWS services, Terraform, Jenkins, Ansible, Docker, and PostgreSQL. My goal is to leverage my expertise to create innovative and scalable solutions that drive business growth and deliver exceptional user experiences.`;
 export const ABOUT_TEXT = `I hold certifications as an AWS Certified Solutions Architect Associate and Oracle Cloud Infrastructure Associate, demonstrating my expertise in cloud technologies and DevOps.Currently serving as an AWS Cloud Engineer at Logile, I possess extensive experience with a diverse array of tools including AWS services, Docker, Terraform, Ansible, Jenkins, and PostgreSQL.
@@ -69,28 +73,28 @@ export const PROJECTS = [
   },
   {
     title: "Deployment of WebApp on AWS and Azure",
-    image: project4,
+    image: project5,
     description:
       "Deployed a WebApp on AWS and Azure, ensuring high availability, load balancing, and secure configurations. Implemented seamless integration with cloud services for optimal performance and scalability across both platforms.",
     technologies: ["Streamlit", "Python", "AWS", "Azure"],
   },
   {
     title: "Diabetes Prediction using machine learning",
-    image: project4,
+    image: project6,
     description:
       "Developed a diabetes prediction model using machine learning, leveraging various algorithms to analyze patient data and predict diabetes onset. Implemented and validated the model to ensure high accuracy and reliability in predictions.",
     technologies: ["Python", "Pandas", "Numpy",  "Matplotlib", "TensorFlow", "Scikit-learn"],
   },
   {
     title: "Heart attack analysis and Prediction",
-    image: project4,
+    image: project7,
     description:
       "Developed a machine learning model for heart attack analysis and prediction by analyzing patient data and identifying key risk factors. Implemented and validated the model to ensure high accuracy, providing a reliable tool for early diagnosis and prevention.",
     technologies: ["Python", "Pandas", "Numpy", "Scikit-learn", "Matplotlib",],
   },
   {
     title: "New York City Vehicle Collision Visualization using Streamlit",
-    image: project4,
+    image: project8,
     description:
       "Created a visualization dashboard for New York City vehicle collisions using Streamlit, enabling interactive exploration and analysis of collision data. Utilized Python for data processing, Streamlit for frontend development, and integrated with mapping libraries for geographical representation.",
     technologies: ["Python", "Streamlit", "Git"],
